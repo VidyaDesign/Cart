@@ -175,13 +175,13 @@ function adicionarProdutosNoContainer() {
     if (!container)
         return;
     const produtos = [
-        new Produtos("CO001", "Waffle", "Waffle with Berries", 6.5, "assets/images/image-waffle-desktop.jpg"),
-        new Produtos("CO002", "Crème Brûlée", "Vanilla Bean Crème Brûlée", 7.0, "assets/images/image-creme-brulee-desktop.jpg"),
-        new Produtos("CO003", "Macaron", "Macaron Mix of Five", 8.0, "assets/images/image-macaron-desktop.jpg"),
-        new Produtos("CO004", "Tiramisu", "Classic Tiramisu", 5.5, "assets/images/image-tiramisu-desktop.jpg"),
-        new Produtos("CO005", "Baklava", "Pistachio Baklava", 4.0, "assets/images/image-baklava-desktop.jpg"),
-        new Produtos("CO006", "Pie", "Lemon Meringue Pie", 5.0, "assets/images/image-meringue-desktop.jpg"),
-        new Produtos("CO007", "Cake", "Red Velvet Cake", 4.5, "assets/images/image-cake-desktop.jpg"),
+        new Produtos("CO001", "Waffle", "Waffle with Berries", 6.5, "image-waffle-desktop.jpg"),
+        new Produtos("CO002", "Crème Brûlée", "Vanilla Bean Crème Brûlée", 7.0, "image-creme-brulee-desktop.jpg"),
+        new Produtos("CO003", "Macaron", "Macaron Mix of Five", 8.0, "image-macaron-desktop.jpg"),
+        new Produtos("CO004", "Tiramisu", "Classic Tiramisu", 5.5, "image-tiramisu-desktop.jpg"),
+        new Produtos("CO005", "Baklava", "Pistachio Baklava", 4.0, "image-baklava-desktop.jpg"),
+        new Produtos("CO006", "Pie", "Lemon Meringue Pie", 5.0, "image-meringue-desktop.jpg"),
+        new Produtos("CO007", "Cake", "Red Velvet Cake", 4.5, "image-cake-desktop.jpg"),
     ];
     // Gera e insere os cards de produtos no container
     produtos.forEach((produto) => {
