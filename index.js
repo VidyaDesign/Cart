@@ -190,5 +190,5 @@ function adicionarProdutosNoContainer() {
     });
 }
 // Executa a função ao carregar a página
-//window.onload = adicionarProdutosNoContainer;
-document.addEventListener("DOMContentLoaded", adicionarProdutosNoContainer);
+window.onload = adicionarProdutosNoContainer;
+//document.addEventListener("DOMContentLoaded", adicionarProdutosNoContainer);
