@@ -1,0 +1,433 @@
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+:root {
+    --cor-primaria: #fff2d9;
+    /* Definindo uma cor primária */
+    --cor-destaque-titulo: #4d1812;
+    /* Definindo uma cor de destaque */
+    --cor-secundaria: #99372c;
+    /* Definindo uma cor secundária */
+    --cor-destaque: #c74031;
+    /* Definindo uma cor de destaque */
+    --cor-destaque-hover: #e95343;
+    /* Definindo uma cor de destaque */
+    --cor-cinza: #836852;
+    /* Definindo uma cor de destaque */
+    --cor-cinza2: #92857a;
+    /* Definindo uma cor de destaque */
+    --cor-cinza3: #463f3a;
+    /* Definindo uma cor de destaque */
+    --cor-preco: #47803b;
+    /* Definindo uma cor de Preco */
+    --cor-preco2: #325c2a;
+    /* Definindo uma cor de Preco */
+}
+
+/* Para navegadores modernos */
+* {
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* Internet Explorer e Edge */
+}
+
+*::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari e Opera */
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    list-style-type: square;
+    /*user-select: none;*/
+    text-decoration: none !important;
+    list-style: none !important;
+    outline: none !important;
+}
+
+body {
+    background: var(--cor-primaria);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+header {
+    background: #fffaf1;
+    padding: 20px 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e5c1a0;
+}
+
+footer {
+    background: #fffaf1;
+    padding: 20px 50px;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+h4 {
+    color: var(--cor-destaque);
+}
+
+#boxCesta {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#cesta {
+    font-size: 1.5em;
+    color: var(--cor-destaque);
+    margin-left: 10px;
+}
+
+#cesta:hover {
+    color: var(--cor-preco);
+}
+
+.youCart {
+    font-size: 0.9em;
+}
+
+/*Toogle*/
+#boxCart {
+    /* Suas outras propriedades */
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+    padding: 10px;
+    padding-top: 120px;
+    background-color: #fffaf1;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(100%);
+    color: var(--cor-destaque);
+    z-index: 2;
+}
+
+.boxItens {
+    width: 100%;
+    height: 300px;
+    overflow-x: auto;
+}
+
+.itens {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    height: auto;
+    top: 0px;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 10px auto;
+}
+
+th,
+td {
+    padding: 5px;
+    text-align: start;
+}
+
+th {
+    background-color: transparent;
+}
+
+.qtd {
+    color: var(--cor-destaque);
+    font-weight: 600;
+}
+
+.td2 {
+    color: var(--cor-cinza2);
+}
+
+.precoSoma {
+    color: var(--cor-cinza2);
+    font-weight: 700;
+}
+
+.txtTotal {
+    font-weight: 500;
+    color: var(--cor-cinza3);
+}
+
+.boxTotal {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #e5c1a0;
+    background-color: #fffaf1;
+    padding: 20px;
+    position: fixed;
+    bottom: 0px;
+}
+
+.total {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#total {
+    font-size: 1.5em;
+    font-weight: 800;
+    color: #000;
+}
+
+table i {
+    color: red;
+    font-size: 2em;
+    position: absolute;
+}
+
+.txtLogo {
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-self: start;
+    flex-wrap: wrap;
+}
+
+.boxCard {
+    flex-direction: column;
+    padding: 10px;
+    margin: 20px 10px;
+    overflow: hidden;
+}
+
+.boxImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    /* Necessário para o posicionamento absoluto do botão */
+    margin-bottom: 20px;
+    height: 100%;
+    /* Para garantir que o conteúdo ocupe a altura total */
+    border-radius: 10px;
+}
+
+.boxImage img {
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 9px rgba(53, 34, 29, 0.3);
+    /* Sombra suave */
+}
+
+.btnAdd {
+    width: 150px;
+    padding: 10px;
+    background-color: #fffaf1;
+    border-radius: 50px;
+    border: 1px solid var(--cor-destaque);
+    position: absolute;
+    bottom: -10px;
+    /* Alinha o botão na parte inferior do boxImage */
+    left: 50%;
+    /* Centraliza o botão horizontalmente */
+    transform: translateX(-50%);
+    /* Ajusta a centralização */
+    cursor: pointer;
+}
+
+.btnAdd:hover {
+    background-color: var(--cor-destaque);
+}
+
+.btnAdd i {
+    color: var(--cor-destaque-titulo);
+    font-size: 1em;
+}
+
+.btnAdd span {
+    color: var(--cor-destaque-titulo);
+    font-size: 1em;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+.btnPagar {
+    width: 60%;
+    padding: 10px;
+    background-color: var(--cor-preco);
+    border: none;
+    border-radius: 50px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+.btnPagar:hover {
+    background-color: var(--cor-preco2);
+}
+
+.btnPagar span {
+    color: #fff2d9;
+    font-size: 1em;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+.boxBtnPagar {
+    width: 100%;
+    padding: 10px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#menus,
+#mais {
+    color: var(--cor-cinza);
+    border: none;
+    background-color: transparent;
+    margin-left: 10px;
+    font-size: 1.2em;
+}
+
+#menus:hover,
+#mais:hover {
+    color: var(--cor-destaque);
+}
+
+/* Definindo a animação */
+@keyframes aumentarErodar {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.btnQtde span {
+    color: #fffaf1;
+    font-size: 1em;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+p {
+    color: var(--cor-cinza);
+    font-size: 0.8em;
+}
+
+.txtFooter {
+    color: var(--cor-cinza);
+    font-size: 1em;
+}
+
+.titulo {
+    font-size: 1em;
+    color: var(--cor-destaque-titulo);
+    font-weight: bold;
+}
+
+.preco {
+    font-size: 0.9em;
+    font-weight: 700;
+    color: #c74031;
+}
+
+.emptyCart {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.txtFooter {
+    font-size: 1em;
+    color: var(--cor-cinza);
+    font-weight: 700;
+}
+
+@media all and (min-width: 200px) and (max-width: 250px) {
+    #boxCart {
+        width: 85%;
+    }
+
+    header {
+        padding: 20px 10px;
+    }
+
+    .boxItens {
+        height: 400px;
+    }
+
+}
+
+@media all and (min-width: 251px) and (max-width: 350px) {
+    #boxCart {
+        width: 87%;
+    }
+
+    header {
+        padding: 20px 10px;
+    }
+
+    .boxItens {
+        height: 400px;
+    }
+
+}
+
+@media all and (min-width: 351px) and (max-width: 400px) {
+    #boxCart {
+        width: 90%;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    .boxItens {
+        height: 400px;
+    }
+}
+
+@media all and (min-width: 401px) and (max-width: 800px) {
+    #boxCart {
+        width: 70%;
+    }
+
+    .boxCard {
+        flex-direction: row;
+        margin: 10px;
+    }
+}
