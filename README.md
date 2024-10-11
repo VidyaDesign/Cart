@@ -1,4 +1,4 @@
-# Carrinho de Compras - E-commerce 🍔
+# Carrinho de Compras - ecommerce 🍔
 
 Este projeto permite aos usuários adicionar, remover e somar valores de itens. É uma aplicação simples e eficaz que visa ajudar desenvolvedores a entender o funcionamento de um sistema de compras online.
 
@@ -38,14 +38,6 @@ Este projeto é uma ótima maneira de aprender sobre a construção de um carrin
 O desenvolvimento deste carrinho de compras não apenas ajuda a aprender sobre e-commerce, mas também proporciona uma base sólida para construir aplicações mais complexas no futuro.
 
 Food 🚀 # Cart
-
-## Como Contribuir
-
-1. Faça um fork deste repositório
-2. Crie uma nova branch (`git checkout -b feature/nova-funcionalidade`)
-3. Commit suas alterações (`git commit -m 'Adicionar nova funcionalidade'`)
-4. Envie para a branch principal (`git push origin feature/nova-funcionalidade`)
-5. Abra um Pull Request
 
 ---
 
