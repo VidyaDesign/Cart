@@ -22,8 +22,6 @@ A soma total dos itens no carrinho é calculada automaticamente, proporcionando 
 
 ## Tecnologias Utilizadas
 
-## Tecnologias Utilizadas
-
 - HTML5
 - CSS
 - JavaScript
@@ -33,10 +31,10 @@ A soma total dos itens no carrinho é calculada automaticamente, proporcionando 
 
 - **Mahavidya**: A criadorora deste projeto, está comprometida em desenvolver soluções inovadoras para e-commerce.
 
-##Aprendizados
+## Aprendizados
 Este projeto é uma ótima maneira de aprender sobre a construção de um carrinho de compras e entender melhor como funcionam as operações de adição, remoção e soma em aplicações de e-commerce. Ao contribuir, você também terá a oportunidade de melhorar suas habilidades de programação e desenvolvimento.
 
-##Nota
+## Nota
 O desenvolvimento deste carrinho de compras não apenas ajuda a aprender sobre e-commerce, mas também proporciona uma base sólida para construir aplicações mais complexas no futuro.
 
 Food 🚀 # Cart
@@ -50,10 +48,6 @@ Food 🚀 # Cart
 5. Abra um Pull Request
 
 ---
-
-**Nota**: Este projeto visa melhorar o processo de recrutamento ao conectar empregadores e trabalhadores de forma geolocalizada, otimizando a produtividade e a eficiência.
-
-
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
