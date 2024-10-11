@@ -1,31 +1,26 @@
-# Sistema de Recrutamento Geolocalizado
+# Carrinho de Compras - E-commerce 🍔
 
-## Descrição
+Este projeto permite aos usuários adicionar, remover e somar valores de itens. É uma aplicação simples e eficaz que visa ajudar desenvolvedores a entender o funcionamento de um sistema de compras online.
 
-A aplicação tem como objetivo primordial disponibilizar aos usuários a possibilidade de contratar profissionais que residem próximos às vagas ofertadas, favorecendo tanto o trabalhador quanto o empregador, tendo em vista a economia de tempo e dinheiro. 
+## Visão Geral
 
-É sabido que funcionários que moram próximos ao trabalho têm mais tempo para descanso e, assim, tendem a ser mais produtivos.
+O carrinho de compras é uma parte fundamental de qualquer plataforma de e-commerce. Com esta aplicação, os usuários têm uma interface intuitiva para gerenciar seus produtos, permitindo uma experiência de compra mais fluida e eficiente. 
 
 ## Funcionalidades
 
-- Cadastrar usuários e ofertas
-- Recuperar senha
-- Atualizar dados
-- Excluir cadastro
-- Armazenar arquivos no sistema
-- Pesquisar, através do CEP, os trabalhadores que residem mais próximos às vagas
-- Aplicar um filtro inteligente que garante que o candidato só terá acesso às ofertas de sua região
+### Adicionar Itens
 
-## Notificações por E-mail
+Os usuários podem facilmente **adicionar produtos** ao carrinho, permitindo que escolham o que desejam comprar de forma prática.
 
-- **Empregadores**: Receberão os dados dos candidatos por e-mail, facilitando as futuras contratações.
-- **Trabalhadores**: Receberão avisos por e-mail das vagas que correspondam ao seu perfil.
+### Remover Itens
 
-## Benefícios do Sistema
+A aplicação permite a **remoção de itens** indesejados do carrinho, garantindo que os usuários possam atualizar suas escolhas a qualquer momento.
 
-- Facilita o recrutamento de profissionais que moram próximos às vagas ofertadas.
-- Favorece a economia de tempo e dinheiro tanto para o empregador quanto para o trabalhador.
-- Contribui para a produtividade ao permitir que trabalhadores residam mais próximos ao local de trabalho.
+### Soma de Valores
+
+A soma total dos itens no carrinho é calculada automaticamente, proporcionando aos usuários uma visão clara do custo total antes de finalizar a compra.
+
+## Tecnologias Utilizadas
 
 ## Tecnologias Utilizadas
 
@@ -33,7 +28,18 @@ A aplicação tem como objetivo primordial disponibilizar aos usuários a possib
 - CSS
 - JavaScript
 - TypeScript
-- React
+
+## Autor
+
+- **Mahavidya**: A criadorora deste projeto, está comprometida em desenvolver soluções inovadoras para e-commerce.
+
+##Aprendizados
+Este projeto é uma ótima maneira de aprender sobre a construção de um carrinho de compras e entender melhor como funcionam as operações de adição, remoção e soma em aplicações de e-commerce. Ao contribuir, você também terá a oportunidade de melhorar suas habilidades de programação e desenvolvimento.
+
+##Nota
+O desenvolvimento deste carrinho de compras não apenas ajuda a aprender sobre e-commerce, mas também proporciona uma base sólida para construir aplicações mais complexas no futuro.
+
+Food 🚀 # Cart
 
 ## Como Contribuir
 
