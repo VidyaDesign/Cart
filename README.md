@@ -29,7 +29,7 @@ A soma total dos itens no carrinho é calculada automaticamente, proporcionando 
 
 ## Autor
 
-- **Mahavidya**: A criadorora deste projeto, está comprometida em desenvolver soluções inovadoras para e-commerce.
+- **Mahavidya**: A criadorora deste projeto está comprometida em desenvolver soluções inovadoras para e-commerce.
 
 ## Aprendizados
 Este projeto é uma ótima maneira de aprender sobre a construção de um carrinho de compras e entender melhor como funcionam as operações de adição, remoção e soma em aplicações de e-commerce. Ao contribuir, você também terá a oportunidade de melhorar suas habilidades de programação e desenvolvimento.
